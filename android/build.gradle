@@ -3,7 +3,6 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
-        mavenCentral()
         google()
         jcenter()
     }
@@ -15,7 +14,6 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        mavenCentral()
         google()
         jcenter()
     }
@@ -39,4 +37,6 @@ dependencies {
 //    implementation 'cn.jiguang.sdk:jcore:2.8.2'
     compile files('libs/jcore-android-2.9.0.k-google_play.jar')
     implementation 'cn.jiguang.sdk:jpush:3.9.0'
+    compileOnly files('libs/flutter.jar')
+
 }
