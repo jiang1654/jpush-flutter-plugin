@@ -39,6 +39,6 @@ android {
 }
 
 dependencies {
-    compile files('libs/jcore-android-2.9.0-google_play.jar')
-    compile files('libs/jpush-android-4.2.2-google_play.jar')
+     compile 'cn.jiguang.sdk:jpush-google:4.2.2'
+     compile 'cn.jiguang.sdk:jcore-google:2.9.0'
 }
